@@ -91,7 +91,7 @@ node server.js
 ```json
 {
   "text": "Staking allows users to earn yield by locking up their tokens in a smart contract. However, users should be aware of slashing risks.",
-  "targetLanguage": "Mandarin Chinese"
+  "targetLanguage": "Mandarin, Traditional Chinese"
 }
 ```
 
