@@ -84,7 +84,7 @@ node server.js
   - URL: `http://localhost:3000/api/translat`
   - Method: `POST`
   - Headers: `Content-Type: application/json`
-  - CLI in terminal (ex.): `curl -X POST http://localhost:3000/api/translate -H "Content-Type: application/json" -d '{"text": "Staking allows users to earn yield by locking up their tokens in a smart contract. However, users should be aware of slashing risks.","targetLanguage": "Mandarin Chinese"}'`
+  - CLI in terminal (ex.): `curl -X POST http://localhost:3000/api/translate -H "Content-Type: application/json" -d '{"text": "Staking allows users to earn yield by locking up their tokens in a smart contract. However, users should be aware of slashing risks.","targetLanguage": "Mandarin, Traditional Chinese"}'`
 
 - Request Body:
 
