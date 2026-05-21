@@ -13,7 +13,7 @@ This system is designed as a foundational core component for next-generation Tra
 
 Unlike standard linear chains, this pipeline implements a formal state machine using LangGraph.js. A shared, centralized state object passes through individual processing nodes. This enables granular auditing of the AI's "thought process" at each step—essential for collaborative enterprise localization tools.
 
-```bash
+```mermaidm
 graph TD
     Start([Injected Request]) --> A[Agent A: Context Analyzer]
     A -->|Extracts Tone & Terminology| B[Agent B: Translator]
